@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "run-p start-client start-server",
-    "start-client": "react-scripts start",
+    "start-client": "react-scripts --openssl-legacy-provider start",
     "start-server": "nodemon server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
